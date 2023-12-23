@@ -3,26 +3,47 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import img from "../../Assets/Projects/digital_clock.png";
 
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {props.imgPath && (
+        <Card.Img
+          src={require(`../../Assets/Projects/${props.imgPath}`)}
+          alt="card-img"
+        />
+      )}
+      {!props.imgPath && (
+        <div
+          className="box"
+          style={{
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: "5rem",
+            marginTop: "2rem",
+          }}
+        >
+          {props.title.split(" ")[0].charAt(0)}
+        </div>
+      )}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          <BsGithub /> &nbsp; GitHub
         </Button>
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {/* If the component contains Demo link then, it will render the below component  */}
 
-        {!props.isBlog && props.demoLink && (
+        {props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
