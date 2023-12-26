@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import img from "../../Assets/Projects/digital_clock.png";
 
 function ProjectCards(props) {
   return (

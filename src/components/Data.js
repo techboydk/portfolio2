@@ -1,6 +1,6 @@
 const personalInfo = {
     name: "Dipesh Yadav",
-    ghLink: "https://github/techboydk",
+    gitUrl: "https://github.com/techboydk",
     twitterUrl: "https://twitter.com",
     linkedinUrl: "https://linkedin.com",
     instagramUrl: "https://instagram.com",

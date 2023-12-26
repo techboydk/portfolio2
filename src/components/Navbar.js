@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -39,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div class="display-6 font-weight-bold purple">{personalInfo.name.split(' ')[0].charAt(0)}{personalInfo.name?.split(' ')[1]?.charAt(0)}.</div>
+          <div class="display-6 font-weight-bold purple"><span className="display-5">{"< "}</span>{personalInfo.name.split(' ')[0].charAt(0)}{personalInfo.name?.split(' ')[1]?.charAt(0)} /<span className="display-5">{">"}</span></div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -95,7 +94,7 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
