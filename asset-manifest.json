@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio2/static/css/main.b9b82c72.css",
+    "main.js": "/portfolio2/static/js/main.d317c72c.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio2/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio2/static/js/787.1ed0c42c.chunk.js",
+    "static/media/facebook-profile.jpg": "/portfolio2/static/media/facebook-profile.fbfaafd5bff664b8680e.jpg",
+    "static/media/home-main.svg": "/portfolio2/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/portfolio2/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Gmail_generator.png": "/portfolio2/static/media/Gmail_generator.385576b4d638aa7ba31a.png",
+    "static/media/digital_clock.png": "/portfolio2/static/media/digital_clock.95d7793f77c524b1ca55.png",
+    "static/media/home-bg.jpg": "/portfolio2/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/Dipesh_Resume.pdf": "/portfolio2/static/media/Dipesh_Resume.a61d6034a8c28146d430.pdf",
+    "static/media/avatar.svg": "/portfolio2/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/portfolio2/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/portfolio2/index.html",
+    "main.b9b82c72.css.map": "/portfolio2/static/css/main.b9b82c72.css.map",
+    "main.d317c72c.js.map": "/portfolio2/static/js/main.d317c72c.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio2/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio2/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9b82c72.css",
+    "static/js/main.d317c72c.js"
+  ]
+}
